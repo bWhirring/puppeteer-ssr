@@ -5,7 +5,7 @@
 安装(ps: 依赖 chromium, 安装过程需要翻墙)
 
 ```
-npm install -g puppeteer-ssr
+npm install -g puppeteer-ssr-cli
 ```
 
 #### usage

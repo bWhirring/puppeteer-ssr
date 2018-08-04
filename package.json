@@ -1,5 +1,5 @@
 {
-  "name": "puppeteer-ssr",
+  "name": "puppeteer-ssr-cli",
   "version": "0.0.1",
   "description": "puppeteer ssr",
   "main": "bin/index.js",
