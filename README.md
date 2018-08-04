@@ -34,7 +34,7 @@ puppeteer-ssr
 | PORT      | number  |        服务端口号(default: 8888)         |
 | OUTPUTDIR | string  |      ssr 输出目录(default: "dist")       |
 | INPUTDIR  | string  | node 监听的静态资源目录(default: "dist") |
-| routes    |  Array  |     需要 ssr 的理由(default: ["/"])      |
+| routes    |  Array  |     需要 ssr 的路由(default: ["/"])      |
 | headless  | boolean |       headless mode(default: true)       |
 | HASH      | boolean |         路由模式(default: true)          |
 
