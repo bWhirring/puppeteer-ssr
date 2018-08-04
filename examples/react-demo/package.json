@@ -1,0 +1,46 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --open --watch",
+    "build": "webpack --config webpack.production.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "less-loader": "^4.1.0",
+    "postcss-loader": "^2.1.5",
+    "react-css-modules": "^4.7.2",
+    "react-hot-loader": "^4.1.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-manifest-plugin": "^2.0.2"
+  },
+  "dependencies": {
+    "less": "^3.0.4",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.2.2"
+  },
+  "config": {
+    "publicPath": "https://assets.dianwoda.cn/",
+    "template": "public/index.html",
+    "favicon": "public/favicon.ico",
+    "filename": "index.html"
+  }
+}
